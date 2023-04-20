@@ -1,9 +1,8 @@
-# Fabric Example Mod
+# My Garbage BETTERSWORDS Mod
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## Download jar
+1. Go to Actions
+2. Click on most recent successful action
+3. Go to summary
+4. Scroll down to Artifacts section
+5. Click on `Mod Jar Files` to download zip with the mod jar file, which is name betterswords-{VERSION}.jar
