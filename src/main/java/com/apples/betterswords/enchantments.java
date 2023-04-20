@@ -10,8 +10,8 @@ import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 
 public class enchantments {
-    public static class PoisonTipped extends Enchantment {
-        public PoisonTipped() {
+    public static class Spewing extends Enchantment {
+        public Spewing() {
             super(Enchantment.Rarity.UNCOMMON, EnchantmentTarget.WEAPON, new EquipmentSlot[] {EquipmentSlot.MAINHAND, EquipmentSlot.OFFHAND});
         }
         @Override
