@@ -13,7 +13,7 @@ public class BetterSwords implements ModInitializer {
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger("modid");
 
-// 	public static final Spewing SPEWING = new Spewing(new FabricItemSettings());
+	public static final Spewing SPEWING = new Spewing(new FabricItemSettings());
 	
 	@Override
 	public void onInitialize() {
@@ -22,6 +22,6 @@ public class BetterSwords implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
-// 		Registry.register(Registries.ENCHANTMENT, new Identifier("betterswords", ""));
+		Registry.register(Registries.ENCHANTMENT, new Identifier("betterswords", "spewing"), SPEWING);
 	}
 }
